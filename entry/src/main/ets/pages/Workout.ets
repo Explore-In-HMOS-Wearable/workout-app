@@ -19,7 +19,7 @@ struct Workout {
   private renderingSettings: RenderingContextSettings = new RenderingContextSettings(true)
   private canvasRenderingContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.renderingSettings)
   private animateItem: AnimationItem | null = null;
-  private animateName: string = "animation"; // name
+  private animateName: string = 'animation'; // name
 
   aboutToAppear(): void {
     this.currentIndex = 0;
@@ -119,7 +119,7 @@ struct Workout {
   }
 
   destroy() {
-    this.animateItem?.removeEventListener("DOMLoaded");
+    this.animateItem?.removeEventListener('DOMLoaded');
     lottie.destroy(this.animateName);
     this.animateItem = null;
   }
