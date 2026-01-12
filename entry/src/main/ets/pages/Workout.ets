@@ -63,7 +63,7 @@ struct Workout {
 
   shuffleArray(array: string[]) {
     for (let i = array.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
+      let j = Math.floor(Date.now() % (i + 1));
       let temp = array[i];
       array[i] = array[j];
       array[j] = temp;
@@ -109,9 +109,9 @@ struct Workout {
       autoplay: false,
       name: this.animateName,
       contentMode: 'Contain',
-      path: `animation/${this.animations[this.currentIndex % this.animations.length]}.json`,
+      path: `animation/${this.animations[this.currentIndex % this.animations.length]}.json`
     })
-    // Animations are loaded asynchronously, any operations on animateItem should be performed within the callback function for when the animation has finished loading.
+
     this.animateItem.addEventListener('DOMLoaded', (args: Object): void => {
       this.animateItem?.setSpeed(1.5)
       this.animateItem?.play()
