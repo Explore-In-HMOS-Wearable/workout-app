@@ -1,5 +1,3 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
-
 # Workout App
 Getting fit has never been this easy – or this much fun. Want to Get Fit, Lose Weight or Get Strong? Just set your goal, and let our app take care of the rest.
 

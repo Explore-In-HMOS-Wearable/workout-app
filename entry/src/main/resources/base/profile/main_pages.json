@@ -1,9 +1,5 @@
 {
   "src": [
-    "pages/Index",
-    "pages/Circuits",
-    "pages/Workout",
-    "pages/Settings",
-    "pages/Complete"
+    "pages/Index"
   ]
 }

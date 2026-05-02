@@ -6,7 +6,11 @@ const DOMAIN = 0x0000;
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
-    this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
+    try {
+      this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
+    } catch (error) {
+      hilog.error(DOMAIN, 'testTag', 'Failed to set color mode. Cause: %{public}s', JSON.stringify(error));
+    }
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
   }
 
@@ -24,6 +28,9 @@ export default class EntryAbility extends UIAbility {
         return;
       }
       PersistentStorage.persistProp('circuit', 1);
+      PersistentStorage.persistProp('reminderId', -1);
+      PersistentStorage.persistProp('reminderHour', 7);
+      PersistentStorage.persistProp('reminderMinute', 0);
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
     });
   }

@@ -2,15 +2,127 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "module description"
+      "value": "Workout timer and reminder module"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "Workout App"
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "Workout"
+    },
+    {
+      "name": "quick_starters",
+      "value": "Quick Starters"
+    },
+    {
+      "name": "full_body",
+      "value": "Full Body"
+    },
+    {
+      "name": "suggested",
+      "value": "Suggested"
+    },
+    {
+      "name": "quick_starter",
+      "value": "Quick Starter"
+    },
+    {
+      "name": "random",
+      "value": "Random"
+    },
+    {
+      "name": "daily_reminder",
+      "value": "Daily Reminder"
+    },
+    {
+      "name": "schedule",
+      "value": "Schedule"
+    },
+    {
+      "name": "circuits",
+      "value": "Circuits"
+    },
+    {
+      "name": "work_phase",
+      "value": "WORK"
+    },
+    {
+      "name": "rest_phase",
+      "value": "REST"
+    },
+    {
+      "name": "workout_complete",
+      "value": "WORKOUT COMPLETE"
+    },
+    {
+      "name": "done",
+      "value": "Done"
+    },
+    {
+      "name": "complete_badge",
+      "value": "OK"
+    },
+    {
+      "name": "hour",
+      "value": "Hour"
+    },
+    {
+      "name": "minute",
+      "value": "Minute"
+    },
+    {
+      "name": "set",
+      "value": "Set"
+    },
+    {
+      "name": "off",
+      "value": "Off"
+    },
+    {
+      "name": "minus",
+      "value": "-"
+    },
+    {
+      "name": "plus",
+      "value": "+"
+    },
+    {
+      "name": "reminder_status_off",
+      "value": "No reminder"
+    },
+    {
+      "name": "reminder_status_on",
+      "value": "Reminder on"
+    },
+    {
+      "name": "reminder_status_failed",
+      "value": "Reminder failed"
+    },
+    {
+      "name": "reminder_status_cancel_failed",
+      "value": "Cancel failed"
+    },
+    {
+      "name": "reminder_notification_title",
+      "value": "Workout time"
+    },
+    {
+      "name": "reminder_notification_content",
+      "value": "Start your daily workout"
+    },
+    {
+      "name": "reminder_notification_expired",
+      "value": "Workout reminder expired"
+    },
+    {
+      "name": "reminder_notification_snooze",
+      "value": "Remind later"
+    },
+    {
+      "name": "workout_position",
+      "value": "%d of %d"
     }
   ]
 }

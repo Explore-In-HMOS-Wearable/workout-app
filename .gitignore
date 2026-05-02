@@ -74,6 +74,13 @@ Thumbs.db
 *.log
 logs/
 *.tmp
+*.xls
+*.xlsx
+*.xlsm
+*.csr
+*.p12
+*.cer
+*.p7b
 
 ############################
 # Output / dist
@@ -81,6 +88,8 @@ logs/
 coverage/
 dist/
 out/
+material/
+/material
 
 ############################
 # JetBrains extra metadata
